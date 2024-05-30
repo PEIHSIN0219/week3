@@ -268,7 +268,7 @@ body {
 
 @media (max-width: 992px) {
     .banner-bg {
-        padding: 40px,24px,80px,24px;
+        width: 100%;
     }
     .banner-h2 {
         justify-content: center;
@@ -296,12 +296,11 @@ body {
         width: 100%;
         flex-direction: column;
         justify-content: center;
-        align-items: center; /* 添加这一行以确保居中对齐 */
-    }
+        align-items: center; 
     .banner-list p {
         width: 100%;
         gap: 20px;
-        text-align: center; /* 添加这一行以确保文本居中 */
+        text-align: center; 
     }
 }
 
