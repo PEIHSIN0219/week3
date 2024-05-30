@@ -270,7 +270,8 @@ body {
     .banner-bg {
         background: #FAFAFA;
         padding: 40px,24px,80px,24px;
-     }
+        margin: 0 auto 120px;
+    }
     .banner-h2 {
         justify-content: center;
     }
