@@ -114,7 +114,7 @@ body {
 .menu li:hover,
 .menu li,
 .current {
-    opacity: 1; /* 在current状态和hover状态下显示 */
+    opacity: 1; 
 }
 
 .menu li::before,
@@ -124,7 +124,7 @@ body {
     position: absolute;
     width: 8px;
     height: 8px;
-    opacity: 0; /* 初始状态设置为不可见 */
+    opacity: 0; 
     content: "";
     transition: opacity 0.5s;
 }
@@ -355,7 +355,7 @@ body {
         align-items: center; /* 居中 */
     }
     .works-list img {
-        width: 80%;
+        width: 100%;
     }
     .works-list h2 {
         text-align: center;
