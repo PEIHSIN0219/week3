@@ -124,7 +124,7 @@ body {
     position: absolute;
     width: 8px;
     height: 8px;
-    opacity: 0; 
+    opacity: 0;
     content: "";
     transition: opacity 0.5s;
 }
@@ -165,14 +165,14 @@ body {
 .menu li:hover::after,
 .menu li a:hover::before,
 .menu li a:hover::after {
-    opacity: 1; /* 在current状态和hover状态下显示 */
+    opacity: 1; 
 }
 
 .mobile-menu {
     display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .header {
         width: 100%;
         padding: 8px 12px;
@@ -184,16 +184,21 @@ body {
         width: 40px;
         height: 40px;
         display: block;
+      justify-content: flex-end;
     }
 }
 
-
+.banner-bg {
+    background: #FAFAFA;
+    padding: 80px 0;
+    margin: 0 auto 120px;
+}
 
 .banner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 670px;
+    max-width: 670px;
     color: #1E1E1E;
     text-align: center;
     font-weight: bold;
@@ -266,8 +271,7 @@ body {
     color: #3B3B3B;
 }
 
-@media (max-width: 992px) {
-    
+@media (max-width: 767px) {
     .banner-h2 {
         justify-content: center;
     }
@@ -295,6 +299,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+    }
     .banner-list p {
         width: 100%;
         gap: 20px;
@@ -348,7 +353,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .works-list {
         flex-direction: column; /* 将列表项目纵向排列 */
         justify-content: center; /* 居中 */
@@ -460,9 +465,9 @@ body {
     color: #FFFFFF !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .footer-bg {
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true);
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true");
         background-repeat: no-repeat;
         background-size: cover;
     }
